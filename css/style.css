@@ -1,0 +1,27 @@
+:root {
+  --text-color: rgba(140, 188, 239);
+  --text-hover-color: rgba(140, 188, 239, 0.581);
+  --light-purple: rgb(104, 97, 209);
+  --button-bg: rgb(49, 42, 151);
+  --bg-color: #04041a;
+  --transition: 0.3s all ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+::selection {
+  background-color: #4e59ce74;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
